@@ -1,15 +1,9 @@
-package com.games.games;
+package com.games.games.game;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-
-import com.games.games.game.GameRunner;
-import com.games.games.game.GamingConsole;
-import com.games.games.game.MarioGame;
-import com.games.games.game.PacManGame;
-import com.games.games.game.SuperContraGame;
 
 @Configuration
 @ComponentScan("com.games.games.game")
